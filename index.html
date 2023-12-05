@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -12,22 +15,23 @@
             <div class="logo">
                 <span>❤</span>
                 <p>NASA: Pluto Matters!</p>
-
             </div>
-            <div class="Menu">
+            <div class="menu">
                 <span>Pro</span>
                 <span>Teams</span>
                 <span>Pricing</span>
                 <span>Documentation</span>
             </div>
         </section>
-        <hr>
         <section class="buscador">
             <img src="./assets/img/npm.png" alt="">
-            <input type="text" />
-            <button>Search</button>
+            <div class="barrabuscador">
+                <img src="./assets/img/lupa.png" alt="lupabuscador" />
+                <input type="text" placeholder="Search packages" />
+                <button>Search</button>
+            </div>
             <button>Sign Up</button>
-            <button>Sign in</button>
+            <p>Sign in</p>
         </section>
     </header>
     <main>
@@ -37,8 +41,8 @@
             <h2>Take your JavaScript development up a notch</h2>
             <p>Get started today for free, or step up to npm Pro to enjoy a premium JavaScript development experience, with features like private packages.</p>
             <div class="buttons">
-                <button>Sign up for free</button>
-                <button>Learn about Pro</button>
+                <button class="buttonSignUp">Sign up for free</button>
+                <button class="buttonLearn">Learn about Pro</button>
             </div>
         </section>
         <section class="info">
@@ -47,7 +51,6 @@
             <p>Relied upon by more than 17 million developers worldwide, npm is committed to making JavaScript development elegant, productive, and safe. The free npm Registry has become the center of JavaScript code sharing, and with more than two million packages, the largest software registry in the world. Our other tools and services take the Registry, and the work you do around it, to the next level.</p>
         </section>
     </main>
-    <hr>
     <footer>
         <section class="logoSupport">
             <section class="logos">
